@@ -22,13 +22,12 @@
             border-radius: 50%;
             margin-top: 30px;
             margin-left: 150px;
-            overflow: hidden;
             
             
         }
         
       #myhead, #name {
-            float: left
+            float: left;
         }
             
         #name p {
@@ -43,35 +42,50 @@
         }
     
     
+        #BottomPortion{
+            height: 425px;
+            width: 950px;
+            margin-left: 150px;
+        }
         
-
         
     #AuthorName {
         font-size: 35px;
-        margin-top: 50px;
+        
         margin-bottom: 50px;
-        margin-left: 150px;
+        
+        margin-top: 50px;
         color: grey;
+    
             }
     
     #Description {
         line-height: 25px;
-        margin-left: 150px;
+        /*margin-left: 150px;*/
         font-size: 16px;
         color: grey;
     }
         
         hr {
-          margin-top: 50px;
-            width: 95%;
+          margin-top: 150px;
+            width: 950px;
             margin-bottom: 50px;
             color: darkgrey;
         }
         
-        #Footer p {
-            margin-bottom: 50px;
-            float: left;
-            margin-right: 350px;
+        #Footer {
+            opacity: .5;
+          margin-left: 150px;
+     }
+        
+       
+            
+        
+        
+        #pop p {
+            margin: 5px;
+            float: right;
+            
         }
         
     </style>
@@ -88,7 +102,7 @@
     <body>
             
     
-           <header id="top" class="clear-fix">
+           <header id="top" >
                <section>
                <div id="myhead"><img src="Image/avatar.png"/></div>
                <div id="name"><p>Ronald McDonald</p></div>
@@ -105,23 +119,24 @@
      
     <section id="BottomPortion">
 
-    <div class="AuthorName">
-        <p> Drew Bardana </p>
+    <div id="AuthorName">
+        <p> Drew Bardana</p>
     </div>
     
-    <div class="Description">
+    <div id="Description">
         <p> Bacon ipsum dolor amet jowl cupim sirloin ham. Cow landjaeger tri-tip ball tip chicken strip steak turkey shank rump flank. Ball tip pig picanha flank shoulder jowl cow beef ribs brisket kielbasa bresaola meatball filet mignon jerky. Cupim chicken bresaola shankle chuck flank tail pork chop cow beef ribs boudin. Pork andouille hamburger picanha. Swine filet mignon pancetta, pork belly rump fatback t-bone picanha short loin tail. T-bone chicken shank. </p>
     </div>
 
 </section>
+        <hr>
         
-        <section id="Footer">
-            <hr>
-            <div>
+        <section id="Footer" c>
+            
+            <div id="time">
             <p> 6 months ago </p>
             </div>
             
-            <div>
+            <div id="pop">
                 <p>0 Comments </p>
                 <p> 2 shares </p>
             </div>
